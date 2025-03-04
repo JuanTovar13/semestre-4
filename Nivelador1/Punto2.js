@@ -1,3 +1,4 @@
+function computeGrades(grades) {
 const gradeMap = {
     A: 0,
     B: 0,
@@ -31,9 +32,8 @@ return {
     passed: gradeMap.A + gradeMap.B + gradeMap.C + gradeMap.D,
     lose: gradeMap.F
 };
+}
 
-
-const studentGrades = [100, 50, 65, 70, 85, 96, 45]
-const result = computeGrades(studentGrades)
-console.log(result)
-
+const studentGrades = [100, 50, 65, 70, 85, 96, 45];
+const result = computeGrades(studentGrades);
+console.log(result);
